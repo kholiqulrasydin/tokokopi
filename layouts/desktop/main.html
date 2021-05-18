@@ -1,12 +1,79 @@
-<nav id="appBar" class="appBar">
-    <div class="appBar-logo"></div>
-    <h5 class="appBar-title">koepilihanku</h5>
-    <button route route-name="home" >Beranda</button>
-    <button route route-name="products" >Produk</button>
-    <button route route-name="addons" >Tambahan</button>
-    <button route route-name="cart" >Keranjang</button>
+<nav id="nav" class="nav">
+    <div class="wrapper container">
+        <div class="logo"><a href="#">Toko Kopi</a></div>
+        <ul id="nav-list" class="nav-list">
+          <div class="top">
+            <label for="" class="btn close-btn" id="close-btn"><i class="fas fa-times"></i></label>
+          </div>
+          <li><a href="#" route-name="home" route>Beranda</a></li>
+          <li><a href="#" route-name="products" route>Produk</a></li>
+          <!-- icons -->
+          <li class="icons">
+            <a href="#" route-name="cart" route><i class="fas fa-shopping-cart"></i><small class="count d-flex">0</small> Keranjang</a>
+          </li>
+        </ul>
+        <label for="" class="btn open-btn" id="open-btn"><i class="fas fa-bars"></i></label>
+    </div>
 </nav>
-<div id="floatingBar"></div>
+
+<!-- App  -->
 <div id="app"></div>
-<footer id="footer"></footer>
-<div id="floatingButton"></div>
+<!-- App  -->
+
+<footer id="footer" class="section footer">
+    <footer id="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-center">
+              <h3>EXTRAS</h3>
+              <a href="#">Brands</a>
+              <a href="#">Gift Certificates</a>
+              <a href="#">Affiliate</a>
+              <a href="#">Specials</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-center">
+              <h3>INFORMATION</h3>
+              <a href="#">About Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-center">
+              <h3>MY ACCOUNT</h3>
+              <a href="#">My Account</a>
+              <a href="#">Order History</a>
+              <a href="#">Wish List</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Returns</a>
+            </div>
+            <div class="footer-center">
+              <h3>CONTACT US</h3>
+              <div>
+                <span>
+                  <i class="fas fa-map-marker-alt"></i>
+                </span>
+                Jl. in aja nomor 88
+              </div>
+              <div>
+                <span>
+                  <i class="far fa-envelope"></i>
+                </span>
+                semangka@mhs.unesa.ac.id
+              </div>
+              <div>
+                <span>
+                  <i class="fas fa-phone"></i>
+                </span>
+                0852588 yang lain kapan kapan
+              </div>
+              <div class="payment-methods">
+                <img src="/assets/images/payment.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </footer>
+</footer>
