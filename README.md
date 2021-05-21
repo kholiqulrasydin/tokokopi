@@ -1,4 +1,3 @@
 # tokokopi
-vanilla javascript
 
-nice!
+vanilla javascript
