@@ -58,13 +58,13 @@ body, html {
 }
 .hero-text {
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
 }
 .hero-text span{
@@ -73,7 +73,7 @@ body, html {
 .wrapper {
     text-align: center;
 }
-.button {
+.wrapper button {
     background-color: #d6b179;
     border: 2px solid #000000;
     border-radius: 50px;
@@ -82,7 +82,6 @@ body, html {
     color: #ffffff;
     padding: 10px;
     width: 200px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
     cursor: pointer;
@@ -92,16 +91,15 @@ body, html {
 .button:hover{
       color: black;
 }
+
   .section .title {
     text-align: center;
-    margin-bottom: 5rem;
     font-family: "Open Sans", sans-serif;
   }
   
   .section .title h2 {
     font-size: 3rem;
     font-weight: 400;
-    margin-bottom: 1.5rem;
   }
   
   .section .title span {
@@ -109,9 +107,10 @@ body, html {
   }
   
   .promotion-layout {
-    display: grid;
+    display: grid ;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    background-color: #ffffff;
+    padding: 50px;
   }
   
   .promotion-item {
@@ -122,9 +121,9 @@ body, html {
   
   .promotion-item img {
     object-fit: cover;
-    height: 100%;
+    transition: all 300ms ease-in-out;
+    background-color: transparent;
     width: 100%;
-    transition: all 500ms ease-in-out;
   }
   
   .promotion-content {
@@ -137,12 +136,14 @@ body, html {
     z-index: 3;
   }
   
-  .promotion-content h3 {
+  .promotion-item h3 {
     font-family: "Open Sans", sans-serif;
     padding: 0.7rem 1.4rem;
-    font-size: 1.7rem;
+    font-size: 20px;
     font-weight: inherit;
     margin-bottom: 1rem;
+    text-align: center;
+    color: #000000;
     transition: all 300ms ease-in-out;
   }
   
@@ -155,7 +156,6 @@ body, html {
     color: #ffffff;
     padding: 10px;
     width: 100px;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
     cursor: pointer;
@@ -196,6 +196,28 @@ body, html {
   .promotion-item:hover::after {
     visibility: visible;
     opacity: 1;
+  }
+
+  .more-container{
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+  }
+  .more button{
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #000000;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    padding: 10px 0;
+    width: 100px;
+    cursor: pointer;
+    margin:auto;
+  }
+  .more button:hover{
+    color: #d6b179;
+    border-color: #d6b179;
   }
 
   /* PRODUCTS */
