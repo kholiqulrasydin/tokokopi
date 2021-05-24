@@ -50,6 +50,9 @@ body, html {
   border-radius: 10px;
   display: grid ;
 }
+.section-bar .bar-item:hover{
+  border: #000000 solid 2px;
+}
 .bar-item{
   margin: 0 15px 15px;
   padding: 15px 10px;
@@ -67,6 +70,11 @@ body, html {
   border-radius: 10px;
   padding: 10px 50px;
   cursor: pointer;
+}
+.tomkus button:hover{
+  border: #000000 solid 1px;
+  color: #ffffff;
+  background-color: #000000;
 }
 /* The hero image */
 .hero{
@@ -350,4 +358,95 @@ body, html {
   
   .product:hover .side-icons {
     transform: translate(0%, -50%);
+  }
+
+  /* Cart Page */
+  .cart {
+    margin: 2rem auto;
+    background-color: #d6b179;
+    border-color: #d6b179;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cart-info span {
+    color: var(--grey2);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  th {
+    text-align: center;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  td {
+    padding: 1rem 0.5rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  td input {
+    width: 5rem;
+    height: 3rem;
+    padding: 0.5rem;
+  }
+  
+  td a {
+    color: var(--primary);
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+  }
+  
+  td img {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 1rem;
+    border: #ffffff 2px solid;
+    border-radius: 16px;
+    padding: 5px;
+  }
+  
+  .total-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .total-price a {
+    display: inline-block;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.7rem 1.6rem;
+    font-weight: 700;
+    border-radius: 3rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .total-price table {
+    border-top: 3px solid var(--primary);
+    width: 100%;
+    max-width: 35rem;
+  }
+  
+  td:last-child {
+    text-align: right;
+  }
+  
+  th:last-child {
+    text-align: right;
   }
