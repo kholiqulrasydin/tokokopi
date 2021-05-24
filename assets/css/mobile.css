@@ -81,13 +81,8 @@ body, html {
     overflow: hidden;
 }
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(#d6b179, #d6b179);
-  
-    /* Set a specific height */
-    height: 100%;
-  
-    /* Position and center the image to scale nicely on all screens */
+    weight: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -95,9 +90,6 @@ body, html {
 }
 .hero-text {
     position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
@@ -109,6 +101,7 @@ body, html {
 }
 .wrapper {
     text-align: center;
+    padding: 10px;
 }
 .wrapper button {
     background-color: #d6b179;
@@ -125,7 +118,7 @@ body, html {
     margin:auto;
     font-weight: 1000;
 }
-.button:hover{
+.wrapper button:hover{
     color: black;
 }
 .section .title {
@@ -139,7 +132,15 @@ body, html {
 .section .title span {
     color: var(--grey2);
   }
-  
+.section-promotion{
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+.section-promotion span{
+  font-size: 1rem;
+}
   .promotion-layout {
     display: grid ;
     grid-template-columns: repeat(3, 1fr);
@@ -253,6 +254,68 @@ body, html {
     color: #d6b179;
     border-color: #d6b179;
   }
+
+  #slideshow {
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.konten {
+  width:1200px; /* 300 x 4 */
+  position:relative;
+  -webkit-animation:slide 4s ease-in-out infinite;
+  -moz-animation:slide 4s ease-in-out infinite;
+  -ms-animation:slide 4s ease-in-out infinite;
+  -o-animation:slide 4s ease-in-out infinite;
+  animation:slide 8s ease-in-out infinite;
+}
+
+.konten img {
+  width:300px;
+  height:200px;
+  float:left;
+}
+.konten:hover {
+   animation-play-state:paused;
+   -webkit-animation-play-state:paused;
+}
+
+@-webkit-keyframes slide {
+  0% {left:0;}
+  25% {left:-300px;}
+  50% {left:-600px;}
+  75% {left:0;}
+  100% {left:0;}
+}
+@-moz-keyframes slide {
+  0% {left:0;}
+  25% {left:-300px;}
+  50% {left:-600px;}
+  75% {left:0;}
+  100% {left:0;}
+}
+@-ms-keyframes slide {
+  0% {left:0;}
+  25% {left:-300px;}
+  50% {left:-600px;}
+  75% {left:0;}
+  100% {left:0;}
+}
+@-o-keyframes slide {
+  0% {left:0;}
+  25% {left:-300px;}
+  50% {left:-600px;}
+  75% {left:0;}
+  100% {left:0;}
+}
+@keyframes slide {
+  0% {left:0;}
+  25% {left:-300px;}
+  50% {left:-600px;}
+  75% {left:0;}
+  100% {left:0;}
+}
 
   /* PRODUCTS */
   .section .product-layout {
