@@ -68,13 +68,14 @@ body, html {
   background-color: #d6b179;
   color: #ffffff;
   border-radius: 10px;
-  padding: 10px 50px;
   cursor: pointer;
+  text-align: center;
 }
 .tomkus button:hover{
   border: #000000 solid 1px;
   color: #ffffff;
   background-color: #000000;
+  text-align: center;
 }
 /* The hero image */
 .hero{
