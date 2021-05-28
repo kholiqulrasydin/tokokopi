@@ -21,7 +21,7 @@ body {
     min-width: 50px;
     overflow: hidden;
     white-space: nowrap;
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     color: #444444;
     text-decoration: none;
@@ -278,7 +278,7 @@ body, html {
 
 .konten img {
   width:300px;
-  height:200px;
+  height: 150px;
   float:left;
 }
 .konten:hover {
@@ -563,3 +563,89 @@ body, html {
     color: #d6b179;
     border-color: #d6b179;
   }
+  .app {
+    font-family: "Open Sans", sans-serif;
+    background: #f4f5f7;
+    border: 2px solid rgba(#000, 0.2);
+    flex-direction: column;
+  }
+  
+  .top {
+    text-align: center;
+    padding-top: 45px;
+  }
+    .price {
+      text-align: right;
+    }
+      .price-title {
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+      }
+  
+      .price-amount {
+        margin-top: 5px;
+        font-weight: 700;
+      }
+
+  .cart-list {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    height: 100%;
+  }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      border-bottom: #000000 solid 2px;
+      border-bottom-left-radius: 10px;
+    }
+    .item-title-product{
+      color: #000000;
+    }
+    .item-title{
+      text-align: right;
+      color: #000000;
+      font-size: 18px;
+    }
+    .item-image{
+        border-radius: 5px;
+        max-width: 100px;
+      }
+      .item-info {
+        text-align: right;
+      }
+        .price-amount {
+          color: #424242;
+          margin-top: 20px;
+          font-weight: 600;
+        }
+        .price-quantity {
+          color: #424242;
+          margin-bottom: 20px;
+          font-weight: 600;
+        }
+  
+  .navigate {
+    display: flex;
+  }
+  
+    .navigate button {
+      font-family: "Open Sans", sans-serif;
+      border: #424242 solid 2px;
+      border-radius: 30px;
+    }
+      .navigate .button-pay {
+        background: transparent;
+        color: #000000;
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .navigate .button-pay:hover{
+        color: #d6b179;
+        border-color: #d6b179;
+      }
+  
