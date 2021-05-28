@@ -121,14 +121,18 @@ body, html {
 }
 .wrapper button:hover{
     color: black;
+    border: #ffffff 2px solid;
 }
 .section .title {
     text-align: center;
     font-family: "Open Sans", sans-serif;
   }
-.section .title h2 {
-    font-size: 3rem;
-    font-weight: 400;
+.section .title h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
   }
 .section .title span {
     color: var(--grey2);
@@ -332,6 +336,15 @@ body, html {
   
   .product {
     overflow: hidden;
+  }
+  .section-products .title h2,
+  .section-promotion .title h2,
+  .section-about .title h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
   }
   
   .product .img-container {
