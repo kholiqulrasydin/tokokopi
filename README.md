@@ -31,8 +31,8 @@ tokokopi/
 This is a complex e-commerce website with User Experience and many User Interfaces included.
 
 
-#PoweredBy Interaksi Manusia Komputer
-#Thanks For Visiting
+#PoweredBy-Interaksi-Manusia-Komputer
+#Thanks-For-Visiting
    
    
    
