@@ -1,9 +1,5 @@
-# tokokopi
-# vanilla-Js
-# no-free-or-commercial-framework
-# just-natural-javascript
-# madeBy-team1-menka
-# Surabaya_State_University
+#tokokopi#vanilla-Js#no-free-or-commercial-framework#just-natural-javascript#madeBy-team1-menka
+#Surabaya_State_University
 
 Hello Everybody! welcome to source code..
 Contributors :
@@ -35,8 +31,8 @@ tokokopi/
 This is a complex e-commerce website with User Experience and many User Interfaces included.
 
 
-# PoweredBy Interaksi Manusia Komputer
-# Thanks For Visiting
+#PoweredBy Interaksi Manusia Komputer
+#Thanks For Visiting
    
    
    
