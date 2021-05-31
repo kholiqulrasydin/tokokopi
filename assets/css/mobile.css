@@ -43,14 +43,16 @@ body, html {
   width: 100%;
   padding: 10px 0;
 }
-.section-bar .bar-item{
+.section-bar .bar-item,
+.section-bar .bar-item-merch{
   background-color: #ffffff;
   border: #d6b179 solid 2px;
   position: relative;
   border-radius: 10px;
   display: grid ;
 }
-.section-bar .bar-item:hover{
+.section-bar .bar-item:hover,
+.section-bar .bar-item-merch:hover{
   border: #000000 solid 2px;
 }
 .bar-item{
@@ -60,8 +62,19 @@ body, html {
   position: relative;
   z-index: 0;
 }
+.bar-item-merch{
+  margin: 0 15px 15px;
+  padding: 15px 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.bar-item-merch img{
+  margin: 32px;
+}
 .tomkus{
   text-align: right;
+  margin:22px;
 }
 .tomkus button{
   border: 1px solid #d6b179;
@@ -528,24 +541,44 @@ body, html {
     text-align: right;
   }
   
-.about  h1 {
+.about h1 {
     font-size: 2rem;
     font-weight: bolder;
     margin-bottom: 1rem;
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    color: #ffffff;
   }
-  
+.about h3{
+  font-family: "Open Sans", sans-serif;
+  margin-left: 15px;
+  color: #000000;
+}
 .about p {
     margin-bottom: 1rem;
-    color: #444444;
+    color: #000000;
     font-family: "Open Sans", sans-serif;
-    text-align: center;
+    text-align: left;
+    margin-left: 15px;
   }
   .section-about{
+    text-align: left;
+    background-color: #d6b179;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .section-about-title h1{
     text-align: center;
-    padding: 15px;
-    background-color: #ffffff;
+    padding: 10px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-size:1 rem;
+  }
+  .latar{
+    font-family: "Open Sans", sans-serif;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px;
   }
   button {
     text-align: center;
