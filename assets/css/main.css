@@ -703,8 +703,13 @@
     background-color: var(--white);
     margin: 0.3rem;
     padding: 1rem 1.3rem;
-    border-radius: 50%;
+    border-radius: 1rem 0 1rem 0;
     transition: all 300ms ease-in-out;
+  }
+
+  .product-details{
+    background-color: transparent; 
+    border: none;
   }
   
   .product .side-icons span:hover {
@@ -1423,4 +1428,24 @@
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.cart-btn-plus{
+  width: 4rem;
+  height: 2rem;
+  color: #ffffff;
+  font-weight: 900;
+  background-color: rgb(61, 146, 120);
+  border-radius: 20%;
+  border-color: rgb(61, 146, 120);
+}
+
+.cart-btn-min{
+  width: 4rem;
+  height: 2rem;
+  font-weight: 900;
+  color: rgb(61, 146, 120);
+  background-color: #ffffff;
+  border-radius: 20%;
+  border-color: rgb(61, 146, 120);
 }
