@@ -956,6 +956,16 @@
     height: 3rem;
     padding: 0.5rem;
   }
+
+  td button {
+    width: 4rem;
+    height: 2rem;
+    color: #ffffff;
+    font-weight: 900;
+    background-color: var(--primary);
+    border-radius: 20%;
+    border-color: var(--primary);
+  }
   
   td a {
     color: var(--primary);
