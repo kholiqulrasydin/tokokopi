@@ -545,32 +545,35 @@ body, html {
 .about h3{
   font-family: "Open Sans", sans-serif;
   margin-left: 15px;
-  color: #000000;
+  color: #ffffff;
+  font-size: 20px;
 }
 .about p {
-    margin-bottom: 1rem;
-    color: #000000;
+    color: #ffffff;
     font-family: "Open Sans", sans-serif;
-    text-align: left;
-    margin-left: 15px;
+    text-align: center;
+    font-size: 20px;
   }
   .section-about{
-    text-align: left;
+    text-align: center;
     border-radius: 20px;
-    padding: 10px;
+    padding-top: 20px;
+    background-color: #d6b179;
   }
   .section-about-title h1{
     text-align: center;
     padding: 10px;
     color: #000000;
     font-family: "Open Sans", sans-serif;
-    font-size:1 rem;
   }
-  .latar{
+  .latar h3, 
+  .latar p{
     font-family: "Open Sans", sans-serif;
     margin-left: 15px;
     text-align: center;
+    color: #ffffff;
     padding: 10px;
+    font-size: 20px;
   }
   button {
     text-align: center;
