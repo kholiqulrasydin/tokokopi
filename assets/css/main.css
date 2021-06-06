@@ -1458,3 +1458,39 @@
   border-radius: 20%;
   border-color: rgb(61, 146, 120);
 }
+
+/* ABOUT */
+.about h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+.about h3{
+font-family: "Open Sans", sans-serif;
+margin-left: 15px;
+color: #000000;
+}
+.about p {
+  margin-bottom: 1rem;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin-left: 15px;
+}
+.section-about{
+  text-align: left;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(214,177,121,1) 72%);
+  border-radius: 20px;
+  padding: 10px;
+}
+.section-about-title h1{
+  text-align: center;
+  padding: 10px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size:1 rem;
+}
