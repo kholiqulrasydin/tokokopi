@@ -110,16 +110,18 @@ body, html {
     padding: 30px;
     text-align: center;
 }
-.hero-text span{
+.hero-text h3{
+    color: rgb(255, 255, 255);
     font-size: 25px;
+    font-family: "Open Sans", sans-serif;
 }
 .wrapper {
     text-align: center;
-    padding: 10px;
+    padding-bottom: 15px;
 }
 .wrapper button {
     background-color: #d6b179;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     border-radius: 50px;
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
@@ -134,7 +136,7 @@ body, html {
 }
 .wrapper button:hover{
     color: black;
-    border: #ffffff 2px solid;
+    border: #000000 2px solid;
 }
 .section .title {
     text-align: center;
@@ -163,7 +165,7 @@ body, html {
     display: grid ;
     grid-template-columns: repeat(3, 1fr);
     background-color: #ffffff;
-    padding: 50px;
+    padding: 25px;
   }
   
   .promotion-item {
@@ -176,13 +178,13 @@ body, html {
     object-fit: fill;
     transition: all 300ms ease-in-out;
     background-color: transparent;
-    width:100%;
-    height: 60%;
+    width: 100%;
+    padding: 0 10px 55px;
   }
   
   .promotion-content {
     position: absolute;
-    top: 50%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--white);
@@ -192,13 +194,9 @@ body, html {
   
   .promotion-item h3 {
     font-family: "Open Sans", sans-serif;
-    padding: 0.7rem 1.4rem;
     font-size: 20px;
-    font-weight: inherit;
-    margin-bottom: 1rem;
     text-align: center;
     color: #000000;
-    transition: all 300ms ease-in-out;
   }
   
   .promotion-content button {
@@ -207,8 +205,7 @@ body, html {
     border-radius: 50px;
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
-    color: #ffffff;
-    padding: 10px;
+    color: #000000;
     width: 100px;
     transition-duration: 0.4s;
     text-decoration: none;
@@ -218,9 +215,9 @@ body, html {
   }
   
   .promotion-content button:hover {
-    color: #000000;
+    color: #d6b179;
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #d6b179;
 
   }
   
@@ -241,10 +238,6 @@ body, html {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background-color: rgba(248, 248, 248, 0.4);
-    opacity: 1;
-    visibility: hidden;
-    transition: all 500ms ease-in-out;
   }
   
   .promotion-item:hover::after {
@@ -254,7 +247,6 @@ body, html {
 
   .more-container{
     text-align: center;
-    padding: 15px;
     background-color: #ffffff;
   }
   .more button{
@@ -287,7 +279,7 @@ body, html {
   -moz-animation:slide 4s ease-in-out infinite;
   -ms-animation:slide 4s ease-in-out infinite;
   -o-animation:slide 4s ease-in-out infinite;
-  animation:slide 8s ease-in-out infinite;
+  animation:slide 10s ease-in-out infinite;
 }
 
 .konten img {
@@ -553,34 +545,35 @@ body, html {
 .about h3{
   font-family: "Open Sans", sans-serif;
   margin-left: 15px;
-  color: #000000;
+  color: #ffffff;
+  font-size: 20px;
 }
 .about p {
-    margin-bottom: 1rem;
-    color: #000000;
+    color: #ffffff;
     font-family: "Open Sans", sans-serif;
-    text-align: left;
-    margin-left: 15px;
+    text-align: center;
+    font-size: 20px;
   }
   .section-about{
-    text-align: left;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(214,177,121,1) 72%);
+    text-align: center;
     border-radius: 20px;
-    padding: 10px;
+    padding-top: 20px;
+    background-color: #d6b179;
   }
   .section-about-title h1{
     text-align: center;
     padding: 10px;
     color: #000000;
     font-family: "Open Sans", sans-serif;
-    font-size:1 rem;
   }
-  .latar{
+  .latar h3, 
+  .latar p{
     font-family: "Open Sans", sans-serif;
     margin-left: 15px;
     text-align: center;
+    color: #ffffff;
     padding: 10px;
+    font-size: 20px;
   }
   button {
     text-align: center;
@@ -637,50 +630,50 @@ body, html {
       border-bottom: #000000 solid 2px;
       border-bottom-left-radius: 10px;
     }
-    .item-title-product{
-      color: #000000;
-    }
-    .item-title{
-      text-align: right;
-      color: #000000;
-      font-size: 18px;
-    }
-    .item-image{
-        border-radius: 5px;
-        max-width: 100px;
-      }
-      .item-info {
-        text-align: right;
-      }
-        .price-amount {
-          color: #424242;
-          margin-top: 20px;
-          font-weight: 600;
-        }
-        .price-quantity {
-          color: #424242;
-          margin-bottom: 20px;
-          font-weight: 600;
-        }
+.item-title-product{
+  color: #000000;
+}
+.item-title{
+  text-align: right;
+  color: #000000;
+  font-size: 18px;
+}
+.item-image{
+  border-radius: 5px;
+  max-width: 100px;
+}
+.item-info {
+  text-align: right;
+}
+.price-amount {
+  color: #424242;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.price-quantity {
+  color: #424242;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
   
-  .navigate {
+.navigate {
     display: flex;
   }
   
-    .navigate button {
-      font-family: "Open Sans", sans-serif;
-      border: #424242 solid 2px;
-      border-radius: 30px;
-    }
-      .navigate .button-pay {
-        background: transparent;
-        color: #000000;
-        font-size: 20px;
-        margin-bottom: 30px;
-        font-family: "Open Sans", sans-serif;
-      }
-      .navigate .button-pay:hover{
-        color: #d6b179;
-        border-color: #d6b179;
-      }
+.navigate button {
+  font-family: "Open Sans", sans-serif;
+  border: #424242 solid 2px;
+  border-radius: 30px;
+}
+.navigate .button-pay {
+  background: transparent;
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.navigate .button-pay:hover{
+  color: #d6b179;
+  border-color: #d6b179;
+}
   
