@@ -3,8 +3,8 @@
 
 Hello Everybody! welcome to source code..
 Contributors :
-- Dita Aulia
-- Filza Hisana
+- Dita Aulia Oktavian
+- Filza Hisana Hizbullah
 - Shabian Arsyl Yonanta
 - Much Kholiqul Rosidin
 
